@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/styles/ckEditor.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/ckEditor.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-app"
+    }
+  },
+  "defaultProject": "angular-app",
+  "cli": {
+    "analytics": "1b302fba-1e5f-4094-b9b3-54692f551354"
+  }
 }
